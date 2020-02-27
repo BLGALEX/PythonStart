@@ -1,2 +1,7 @@
-print ("хуй0")
-a = 2/0
+n = int (input())
+res = int (0)
+array = input().split()
+for x in array: 
+    res+= int(x)
+print (res/n)
+    
